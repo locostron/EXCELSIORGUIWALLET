@@ -3,9 +3,9 @@ var config = {};
 // self explanatory, your application name, descriptions, etc
 config.appName = 'ExcelsiorGUIwallet';
 config.appDescription = 'Excelsior GUI wallet';
-config.appSlogan = 'La criptomoneda excelsior i lliure!';
-config.appId = 'com.excersior.ExcelsiorGUIwallet';
-config.appGitRepo = 'https://github.com/exselsio/excelsior-wallet-electron';
+config.appSlogan = 'excelsior!';
+config.appId = 'com.locostron.ExcelsiorGUIwallet';
+config.appGitRepo = 'https://github.com/locostron/EXCELSIORGUIWALLET';
 
 // default port number for your daemon (e.g. TurtleCoind)
 config.daemonDefaultRpcPort = 19801;
