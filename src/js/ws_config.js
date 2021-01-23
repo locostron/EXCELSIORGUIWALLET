@@ -8,10 +8,10 @@ config.appId = 'com.excersior.ExcelsiorGUIwallet';
 config.appGitRepo = 'https://github.com/exselsio/excelsior-wallet-electron';
 
 // default port number for your daemon (e.g. TurtleCoind)
-config.daemonDefaultRpcPort = 19802;
+config.daemonDefaultRpcPort = 19801;
 
 // wallet file created by this app will have this extension
-config.walletFileDefaultExt = 'cwl';
+config.walletFileDefaultExt = 'XSL';
 
 // change this to match your wallet service executable filename
 config.walletServiceBinaryFilename = 'xls-service';
@@ -25,7 +25,7 @@ config.walletServiceBinaryVersion = "v0.1.0";
 config.walletServiceConfigFormat = "json";
 
 // default port number for your wallet service (e.g. turtle-service)
-config.walletServiceRpcPort = 4455;
+config.walletServiceRpcPort = 8070;
 
 // block explorer url, the [[TX_HASH]] will be substituted w/ actual transaction hash
 config.blockExplorerUrl = 'http://excelsior.ms-pool.net.ua/transaction.html?hash=[[TX_HASH]]';
@@ -45,7 +45,10 @@ config.remoteNodeListFiltered = true;
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-	'185.17.27.105:19801'
+	'185.17.27.105:19801',
+    '104.238.222.130:19801',
+    '185.103.97.205:19801', 
+    '97.64.253.98:19801',
 ];
 
 // your currency name
