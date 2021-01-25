@@ -17,7 +17,7 @@ config.walletFileDefaultExt = 'XSL';
 config.walletServiceBinaryFilename = 'xls-service';
 
 // version on the bundled service (turtle-service)
-config.walletServiceBinaryVersion = "v0.1.0";
+config.walletServiceBinaryVersion = "v0.1.1.005";
 
 // config file format supported by wallet service, possible values:
 // ini -->  for turtle service (or its forks) version <= v0.8.3
@@ -25,7 +25,7 @@ config.walletServiceBinaryVersion = "v0.1.0";
 config.walletServiceConfigFormat = "json";
 
 // default port number for your wallet service (e.g. turtle-service)
-config.walletServiceRpcPort = 8070;
+config.walletServiceRpcPort = 4455;
 
 // block explorer url, the [[TX_HASH]] will be substituted w/ actual transaction hash
 config.blockExplorerUrl = 'http://excelsior.ms-pool.net.ua/transaction.html?hash=[[TX_HASH]]';
