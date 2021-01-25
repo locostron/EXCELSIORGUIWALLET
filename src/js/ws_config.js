@@ -31,7 +31,7 @@ config.walletServiceRpcPort = 8070;
 config.blockExplorerUrl = 'http://excelsior.ms-pool.net.ua/transaction.html?hash=[[TX_HASH]]';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
-config.remoteNodeDefaultHost = '185.203.240.135:19801';
+config.remoteNodeDefaultHost = '185.203.240.135';
 
 
 // remote node list update url, set to null if you don't have one
@@ -58,7 +58,7 @@ config.assetTicker = 'XLS';
 // your currency address prefix, for address validation
 config.addressPrefix = 'XL';
 // standard wallet address length, for address validation
-config.addressLength = 98;
+config.addressLength = 97;
 // integrated wallet address length, for address validation. Added length is length of payment ID encoded in base58.
 config.integratedAddressLength = config.addressLength + ((64 * 11) / 8);
 
